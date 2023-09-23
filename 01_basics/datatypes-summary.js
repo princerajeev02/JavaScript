@@ -17,5 +17,5 @@ const bigNumber = 3423423042832382244242n
 console.log(typeof bigNumber);
 
 const num = 2.44
-console.log(typeof num9);
+console.log(typeof num);
 
