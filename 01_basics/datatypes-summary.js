@@ -19,3 +19,18 @@ console.log(typeof bigNumber);
 const num = 2.44
 console.log(typeof num);
 
+
+//Reference (Non primitive)
+
+//Array, Objects, Functions
+
+const heros = ["Shaktiman", "naagraj", "doga"];
+
+let myObj = {
+    name : "rajeev",
+    age: 22
+}
+
+const myFunction = function(){
+    console.log("hello World");
+}
