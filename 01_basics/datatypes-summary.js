@@ -34,3 +34,23 @@ let myObj = {
 const myFunction = function(){
     console.log("hello World");
 }
+
+
+// ++++++++++++++++++++++++++++++++
+
+// Stack (primitive), Heap (Non-Primitive)
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "rajeev@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+//in stack we get a copy of previous variable
+//in Heap memory we get a refernce of variable we pointing to same variable
